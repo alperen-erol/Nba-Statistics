@@ -1,10 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    height: 100vh;
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-  }
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right, #fad900 0%, #ff8000 100%);
+}
+.player-card {
+  margin: auto;
+  max-width: 200px;
+  height: 320px;
+  margin-bottom: 50px;
+  text-align: center;
+  transition: all 0.5s;
+}
+.player-image {
+  height: 250px;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+.player-card:hover .player-image{
+  transform: scale(95%);
+  cursor: pointer;
+}
+.player-card:hover{
+  transform: scale(105%)
+}
