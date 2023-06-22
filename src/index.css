@@ -27,3 +27,11 @@ body {
 .player-card:hover{
   transform: scale(105%)
 }
+.statCard{
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  
+}
