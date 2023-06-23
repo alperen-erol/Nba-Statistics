@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 
 const PlayerCard = (item) => {
   const statistics = item.statistics;
-  const [cardFace, setCardFace] = useState(false);
+  const [cardFace, setCardFace] = useState(true);
   return (
     <>
       <Card

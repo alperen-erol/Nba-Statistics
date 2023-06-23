@@ -20,18 +20,16 @@ body {
   object-fit: cover;
   transition: all 0.5s;
 }
-.player-card:hover .player-image{
-  transform: scale(95%);
+.player-card:hover .player-image {
   cursor: pointer;
 }
-.player-card:hover{
-  transform: scale(105%)
+.player-card:hover {
+  transform: scale(105%);
 }
-.statCard{
+.statCard {
   height: 320px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  
 }
