@@ -14,9 +14,9 @@ const PlayerCard = (item) => {
         {cardFace ? (
           <Card.Img className="player-image" src={item.img} />
         ) : (
-          <ul className=" m-auto mt-5 statCard">
+          <ul className=" m-auto mt-5 statCard ">
             {statistics.map((item) => {
-              return <li className=" list-unstyled h6 text-start">{item}</li>;
+              return <li className="statistics list-unstyled h-4 text-start">{item}</li>;
             })}
           </ul>
         )}

@@ -10,9 +10,9 @@ const Main = () => {
   return (
     <>
       <Form.Control
-        className="mb-3 w-50 m-auto"
+        className="mb-5 w-50 m-auto"
         type="search"
-        placeholder="Normal text"
+        placeholder="Search Player"
         onChange={(e)=>setSearch(e.target.value)}
       />
       <Container>

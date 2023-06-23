@@ -9,14 +9,18 @@ body {
 }
 .player-card {
   margin: auto;
-  max-width: 200px;
-  height: 320px;
+  max-width: 270px;
+  min-width: 220px;
+  height: 420px;
   margin-bottom: 50px;
   text-align: center;
   transition: all 0.5s;
 }
+.card-body{
+  height: 60px;
+}
 .player-image {
-  height: 250px;
+  height: 360px;
   object-fit: cover;
   transition: all 0.5s;
 }
@@ -32,4 +36,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: start;
+}
+.statistics{
+  font-size: 30px;
 }
